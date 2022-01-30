@@ -5,7 +5,7 @@ body{
     background-image: url("./Images/hero-cover.3.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    height:600px ;
 }
 .house{
     display: flex;
@@ -28,12 +28,12 @@ nav ul>li{
     
 } 
 .lost{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-color: white;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    }
 .three button{
     border-radius: 20px;
     padding:10px 20px;
@@ -53,11 +53,15 @@ color: white;
   
 }
 .puri div{
-    height: 100px;
+    height: 200px;
     padding: 20px;
     border: 2px solid black;
     margin-left: 60px;
+    text-align: center;
    
+}
+h4{
+    font-weight: bolder;
 }
 #one{
     background-color : #23a6f2 ;
@@ -72,7 +76,7 @@ color: white;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 300px;
 }
 .Gone div{
     padding: 28px;
@@ -109,24 +113,12 @@ color: white;
     padding: 100px;
 }
 .color{
-    color: white;
-    background-image: linear-gradient(to right,rgb(204, 0, 255)
-     rgb(255, 192, 250 rgb(231, 19, 143)));
-    padding: 58px;
+    border: 2px solid grey;
+    color:white;
+    background-image: linear-gradient(to right,rgb(55, 5, 88), rgb(230, 51, 155));
     text-align: center;
+    padding: 30px;
 
-}
-.lastie{
-    display: flex;
-    position: relative;
-    align-items: center;
-    top: 100px;
-    right: 700px;
-    background-color: white;
-    color: black;
-}
-.lastie button{
-    padding: 20px;
 }
 .baby{
     text-align: center;
@@ -134,23 +126,19 @@ color: white;
 .ruler{
     display: flex;
     justify-content: center;
-
 }
 .ruler div{
-border: 2px solid rgb(4, 4, 228);
-text-align: center;
-
-}
-#pretty{
-    background-color: rgba(30, 30, 56);
-    color: white;
-}
+    border: 2px solid rgb(4, 4, 228);
+    text-align: center;
+    width: 350px;
+    }
 .todo{
     color:#23a6f2 ;
     font-size: bolder;
 }
-.son{
-    width: 280px;
+#pretty{
+    background-color: rgba(30, 30, 56);
+    color: white;
 }
 .ruler button{
     padding: 20px;
@@ -160,6 +148,23 @@ text-align: center;
     color: white;
     display: flex;
     justify-content: space-around;
+}
+.son{
+    width: 280px;
+}
+
+.lastie{
+    display: flex;
+    position: relative;
+    align-items: center;
+    top: 100px;
+    right: 600px;
+    background-color: white;
+    color: black;
+    width: 400px;
+}
+.lastie button{
+    padding: 20px;
 }
 .since{
      display: flex;
@@ -178,6 +183,9 @@ button{
     display: flex;
     justify-content: center;
 
+}
+.final{
+    font-weight: bolder;
 }
 .footie ,li{
     list-style: none;
