@@ -4,7 +4,7 @@ body{
 .begin{
     background-image: url("./Images/hero-cover.3.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     height: 500px;
 }
 .house{
@@ -80,7 +80,6 @@ color: white;
     width: 170px;
 }
 .mother{
-    background-color: red;
     display: flex;
     flex-direction: column;
 }
@@ -118,25 +117,37 @@ color: white;
     text-align: center;
 }
 .ruler{
-    border: 2px solid rgb(29, 150, 248) ;
     display: flex;
     justify-content: center;
+
 }
 .ruler div{
-border: 2px solid black;
+border: 2px solid rgb(4, 4, 228);
 text-align: center;
+
+}
+.todo{
+    background-color: rgba(30, 30, 56);
+    color: white;
+
+}
+.ruler ol li{
+    padding: 10px;
+}
+.ruler button{
+    padding: 20px;
 }
 .blue{
     background-color: rgb(30, 30, 56);
     color: white;
     display: flex;
-    
+  
 }
+.son{
 
+}
 .lastie{
-    position: relative;
-    top: 20px;
-    left: 200px;
+
 }
 .since{
 display: flex;
