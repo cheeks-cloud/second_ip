@@ -113,6 +113,12 @@ color: white;
     text-align: center;
 
 }
+.lastie{
+    position: absolute;
+    left: 100 ;
+    top: 100;
+    
+}
 .baby{
     text-align: center;
 }
@@ -141,17 +147,10 @@ text-align: center;
     background-color: rgb(30, 30, 56);
     color: white;
     display: flex;
-  
-}
-.son{
-
-}
-.lastie{
-
 }
 .since{
-display: flex;
-justify-content: space-around;
+     display: flex;
+    justify-content: space-around;
 }
 button{
     background-color:#23a6f2;
