@@ -13,7 +13,7 @@
 + [Authors Info](#author-Info)
 
 ## Description
-<p>This is my first project in moringa school.it is supposed to teach on the basic html and basic css styling.</p>
+<p>This is my Second project in moringa school.it is supposed to teach  further on the  html and  css styling.</p>
 
 ## Installation
 
@@ -29,6 +29,7 @@
  ## Technology Used
  * HTML which was used to build the structure of the page.
  * CSS  which was used to style the page.
+ * media queries to make it responsive.
 
  ## Reference
   * Materialise CSS
