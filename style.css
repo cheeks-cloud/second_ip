@@ -9,24 +9,44 @@ body{
     background-color: whitesmoke;
 }
 
-@media screen and (max-width:760px) {
-    .begin{
-        background-image: url("./Images/hero-cover.3.png");
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 600px;
+@media only screen and (max-width: 740px ) {
+     .begin{
+   
+    } 
+    .house{
+        padding-top: 20px;
+        justify-content: space-around;
+        color: white;
     }
     .puri{
-        display:flex;
-        position: relative;
-        top: 500px;
-        justify-content: space-around;
-        align-items: center;
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+         top: 0px;
       
+    }
+    .puri div{
+        margin-left: 30px;
+
+    }
+    .Gone{
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .mother{
+        flex-direction: column;
+    }
+    .ruler{
+        flex-direction: column;
+    }
+    .footie{
+       justify-content: center; 
+        flex-direction: column;
+        align-items: center;
     }
     
 }
-.begin{
+.begin{ 
     background-image: url("./Images/hero-cover.3.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,13 +56,16 @@ body{
 .house{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
     color: white;
 }
 nav ul>li{
     display: inline-block;
     padding: 20px;
     color: white;
+}
+.house button{
+    padding: 20px;
+    text-align: center;
 }
 
 .begina{
@@ -59,7 +82,15 @@ nav ul>li{
     justify-content: center;
     align-items: center;
     color: white;
-    margin-top: 70px;
+    margin-top: 80px;
+    }
+    .lost h1{
+        margin-top: 20px;
+        font-weight: bolder;
+    }
+    .lost h3{
+        margin-top: 50px;
+        font-weight: bolder;
     }
     .three{
         margin-top: 100px;
@@ -87,12 +118,13 @@ nav ul>li{
     padding: 20px;
     margin-left: 60px;
     text-align: center;
-    width: 190px;
+    width: 230px;
 }
 .puri img{
     margin-top: 0px;
 }
 h4{
+     
     font-weight: bolder;
 }
 #one{
@@ -106,7 +138,7 @@ h4{
     background-color: white;
     display: flex;
     justify-content: space-around;
-    flex-direction: row;
+    /* flex-direction: row; */
     align-items: center;
     margin-top: 300px;
 }
@@ -121,9 +153,15 @@ h4{
 }
 .first{
     text-align: center;
+    margin-top: 20px;
 
 }
- .movie{
+.first p{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+}
+    .movie{
   
     display: flex;
     justify-content: space-between;
@@ -131,6 +169,7 @@ h4{
     align-items: center;
 }
 .movie div{
+    margin-top: 60px;
     background-color: white;
     text-align: center;
     border: 2px solid grey;
